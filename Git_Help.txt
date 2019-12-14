@@ -1,0 +1,20 @@
+Team,
+---------------------------------
+How to upload files on github
+
+1. Go to github.com and create a repo
+2. Now  go to your project files and right click, open git bash (Assume that you have install git on your machine.)
+3. Set you user name and email in git config (one time)
+      a) git config --global user.name "YOUR_GIT_USER_NAME"
+      b) git config --global user.email "sam@example.com"
+4. git init    (To initiate git in project)
+5. git status    (TO KNOW STATUS OF FILES)
+6. git add .   ("." will add all files, you can specify file name OR file extension)
+7. git commit -m "message"
+8. git remote add origin YOUR_REPO_ADDRESS      (ex:-  git remote add origin https://github.com/atyagi012/Sel_Nov_24.git)    (ONE TIME)
+9. git push -u origin master       (TO PUSH YOUR CODE IN MASTER BRANCH)
+-------------------------------------
+
+For more details....
+Please go through below link.....
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
